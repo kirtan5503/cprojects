@@ -1,16 +1,18 @@
 #include<stdio.h>
-int main
+
+int main ()
 {
     int n;
     printf("Enter your marks ");
     scanf("%d", n);
 
  if(n>=90)
-{        printf("Your grade is A");
+    {       
+        printf("Your grade is A");
     }
     else if (n>=70)
     {
-         printf("Your grade is B");
+        printf("Your grade is B");
     }
     else if (n>=60)
     {

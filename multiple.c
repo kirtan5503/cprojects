@@ -17,20 +17,28 @@ int main()
             printf("Enter the amount to be withdrawn:\n");
             scanf("%d",&l);
             
-            if (l>=p)
-            {
-                e=p-l;
-                printf("**** Collect Your Amount ****");
-                printf("###  Your balance is: $%d",e);
-            }
-            else
-            printf("You do not have that much balance dumbass");
+            
+            e=p-l;
+            printf("**** Collect Your Amount ****");
+            printf("###  Your balance is: $%d",e);
+            
+            
         }
     }
-    if (a==5172)
+    if (b==5172)
     {
-        printf("Enter your Visa card number");
+        printf("Enter your Visa card number:\n");
         scanf("%d",&y);
+        if (y==50503)
+        {
+            printf("Enter the amount to be withdrawn:\n");
+            scanf("%d",&m);
+            
+            f=o-m;
+            printf("**** Collect Your Amount ****");
+            printf("###  Your balance is: $%d",f);
+           
+        }
         
     }
     return 0;
